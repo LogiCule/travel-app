@@ -4,7 +4,7 @@ interface ButtonProps {
   title: string;
   icon?: string;
   type: "button" | "submit";
-  variant?: "btn_dark_green";
+  variant?: "btn_dark_green" | "btn_green" | "btn_white_text";
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
