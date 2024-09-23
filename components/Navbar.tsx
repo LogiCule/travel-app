@@ -12,13 +12,13 @@ const Navbar = () => {
 
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map(({ key, label, href }) => (
-          <Link
+          <a
             key={key}
-            href={href}
+            href={`#${href}`}
             className="regular-16 text-gray-50 flexCenter pb-1.5 transition-all hover:font-bold"
           >
             {label}
-          </Link>
+          </a>
         ))}
       </ul>
 
